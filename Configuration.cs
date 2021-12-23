@@ -42,7 +42,7 @@ namespace Notes.Identity
                     RequirePkce = true,
                     RedirectUris =
                     {
-                        "https://localhost:3000/signin-iodc"
+                        "https://localhost:3000/signin-oidc"
                     },
                     AllowedCorsOrigins =
                     {
@@ -50,7 +50,7 @@ namespace Notes.Identity
                     },
                     PostLogoutRedirectUris =
                     {
-                        "https://localhost:3000/signout-iodc"
+                        "https://localhost:3000/signout-oidc"
                     },
                     AllowedScopes =
                     {
